@@ -21,7 +21,8 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "retail_sales_dataset.xlsx",
 				"container": "input"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
