@@ -1,0 +1,9 @@
+{
+	"name": "adfforblob",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5d9d0fb0-a90e-4587-8667-1fd3e8692940",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
