@@ -16,11 +16,8 @@
 			"sheetName": "Data",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@dataset().file_name",
-					"type": "Expression"
-				},
-				"container": "assesment"
+				"fileName": "Customer.xlsx",
+				"container": "excel-container"
 			},
 			"firstRowAsHeader": true
 		},
