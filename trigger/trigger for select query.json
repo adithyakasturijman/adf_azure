@@ -6,7 +6,7 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "pipeline2",
+					"referenceName": "pipeline_for_csvfiles_and_xlsx_from blob_to_db",
 					"type": "PipelineReference"
 				}
 			}
