@@ -1,0 +1,25 @@
+{
+	"name": "trigger for select query",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2025-03-06T11:00:00",
+				"endTime": "2025-03-07T11:10:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
