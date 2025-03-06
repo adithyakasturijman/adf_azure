@@ -66,8 +66,11 @@
 									"type": "DelimitedTextSource",
 									"additionalColumns": [
 										{
-											"name": "datset_name",
-											"value": "1"
+											"name": "data_added_at",
+											"value": {
+												"value": "@utcNow()",
+												"type": "Expression"
+											}
 										}
 									],
 									"storeSettings": {
@@ -148,8 +151,11 @@
 						"type": "ExcelSource",
 						"additionalColumns": [
 							{
-								"name": "datset_name",
-								"value": "Cutomer.xlsx"
+								"name": "data_added_at",
+								"value": {
+									"value": "@utcNow()",
+									"type": "Expression"
+								}
 							}
 						],
 						"storeSettings": {
