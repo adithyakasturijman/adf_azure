@@ -14,10 +14,6 @@
 				"container": "semicoloumn-seperated-csv"
 			},
 			"columnDelimiter": ";",
-			"rowDelimiter": {
-				"value": ",,,,,,,,,,,,,,",
-				"type": "Expression"
-			},
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
