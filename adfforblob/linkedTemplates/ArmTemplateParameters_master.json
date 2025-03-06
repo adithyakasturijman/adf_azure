@@ -20,6 +20,9 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "admin1"
 		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/users"
+		},
 		"containerUri": {
 			"value": ""
 		},
