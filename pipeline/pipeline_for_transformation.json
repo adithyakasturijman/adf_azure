@@ -123,7 +123,9 @@
 								"sink": {
 									"type": "AzureSqlSink",
 									"writeBehavior": "insert",
-									"sqlWriterUseTableLock": false
+									"sqlWriterUseTableLock": false,
+									"tableOption": "autoCreate",
+									"disableMetricsCollection": false
 								},
 								"enableStaging": false,
 								"translator": {
@@ -149,14 +151,8 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "stagingschematable",
-									"type": "DatasetReference",
-									"parameters": {
-										"table_name": {
-											"value": "@item().name",
-											"type": "Expression"
-										}
-									}
+									"referenceName": "Staging_schema_dataset",
+									"type": "DatasetReference"
 								}
 							]
 						}
