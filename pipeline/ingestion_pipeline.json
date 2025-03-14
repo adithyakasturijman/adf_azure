@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "ingestion_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -14,7 +14,7 @@
 					},
 					"activities": [
 						{
-							"name": "Copy data1",
+							"name": "data_from_sql_server_to_snowflake",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
