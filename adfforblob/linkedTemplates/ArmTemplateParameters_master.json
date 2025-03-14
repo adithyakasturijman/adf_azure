@@ -5,10 +5,22 @@
 		"factoryName": {
 			"value": "adfforblob"
 		},
-		"AzureBlobStorage1_connectionString": {
+		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
-		"AzureSqlDatabase1_password": {
+		"Snowflake1_connectionString": {
+			"value": ""
+		},
+		"Snowflake2_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_sasUri": {
 			"value": ""
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
@@ -22,6 +34,21 @@
 		},
 		"RestService1_properties_typeProperties_url": {
 			"value": "https://jsonplaceholder.typicode.com/users"
+		},
+		"Snowflake2_properties_typeProperties_database": {
+			"value": "mini_project"
+		},
+		"Snowflake2_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "JM-DKT-045"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "mini_project"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
 		},
 		"containerUri": {
 			"value": ""
